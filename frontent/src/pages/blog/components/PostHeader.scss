@@ -1,0 +1,21 @@
+div.post-header {
+  text-align: left;
+}
+
+.post-header-title {
+  display: flex;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.post-header-origin {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 10px;
+  color: gray;
+
+  & > a {
+    text-decoration: none;
+    color: inherit;
+  }
+}

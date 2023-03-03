@@ -1,0 +1,17 @@
+@import "../../styles/variables.scss";
+
+.dashboard-container {
+  background-color: $page-background-color;
+  height: calc(100vh - $header-height);
+  overflow: hidden;
+}
+
+.dashboard-container.dashboard-container--list {
+  height: $normal-page-height;
+  overflow: auto;
+  margin-top: 0;
+}
+
+.dashboard-container.dashboard-container--pagination {
+  padding: 0;
+}

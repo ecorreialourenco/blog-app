@@ -1,0 +1,22 @@
+@import "../../styles/variables.scss";
+
+.blog.blog.blog--container {
+  background-color: $page-background-color;
+  height: calc(100vh - $header-height - 30px);
+  overflow: hidden;
+}
+
+.blog.blog--list {
+  height: $normal-page-height;
+  overflow: auto;
+  margin-top: 0 32px;
+}
+
+.blog.blog--icon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.blog.blog--pagination {
+  padding: 0;
+}

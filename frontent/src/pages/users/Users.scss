@@ -1,0 +1,28 @@
+@import "../../styles/variables.scss";
+
+.users-container {
+  background-color: $page-background-color;
+}
+
+.users-title {
+  height: $page-title-height;
+}
+
+.users-loading {
+  height: calc(100vh - $header-height);
+  display: block;
+
+  & > span {
+    margin-top: 30%;
+  }
+}
+
+.users-tab-container {
+  margin-bottom: 20px;
+}
+
+.users-list {
+  height: $page-height;
+  overflow: hidden;
+  padding: 10px 20px;
+}

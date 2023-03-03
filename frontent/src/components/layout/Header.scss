@@ -1,0 +1,51 @@
+@import "../../styles/variables.scss";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background-color: $header-background-color;
+  color: $header-text-color;
+  font-size: 18px;
+  height: $header-height;
+}
+
+.header-left-side {
+  display: block;
+  margin-top: 7px;
+}
+
+.header-left-link {
+  text-decoration: none;
+  color: $header-text-color;
+
+  &:hover {
+    color: $header-text-hover-color;
+  }
+}
+
+.header-right-side {
+  display: flex;
+}
+
+.header-items {
+  margin-right: 25px;
+}
+
+.header-icons {
+  height: 30px;
+  color: lightgray;
+}
+
+.header-right-link {
+  text-decoration: none;
+  color: $header-text-color;
+
+  &:hover {
+    color: $header-text-hover-color;
+  }
+}
+
+.right-buttons {
+  margin-left: 25px;
+}
